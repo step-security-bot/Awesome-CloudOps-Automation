@@ -47,13 +47,12 @@ def ssh_execute_remote_command(sshClient, hosts: List[str], command: str, sudo: 
 
     client = sshClient(hosts)
     runCommandOutput = client.run_command(command=command, sudo=sudo)
-    client.join()
     res = {}
 
-    for host_output in runCommandOutput:
-        hostname = host_output.host
+    for host, host_output in runCommandOutput.items():
+        hostname = host
         output = []
-        for line in host_output.stdout:
+        for line in host_output:
             output.append(line)
 
         o = "\n".join(output)
