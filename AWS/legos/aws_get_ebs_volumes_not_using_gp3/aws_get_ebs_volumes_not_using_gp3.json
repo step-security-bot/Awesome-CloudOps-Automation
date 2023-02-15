@@ -1,0 +1,11 @@
+{
+    "action_title": " AWS Get EBS Volumes Not using Gp3",
+    "action_description": " AWS Get EBS Volumes Not using Gp3",
+    "action_type": "LEGO_TYPE_AWS",
+    "action_entry_function": "aws_get_ebs_volumes_not_using_gp3",
+    "action_needs_credential": true,
+    "action_supports_poll": true,
+    "action_is_check": true,
+    "action_output_type": "ACTION_OUTPUT_TYPE_LIST",
+    "action_supports_iteration": true
+}

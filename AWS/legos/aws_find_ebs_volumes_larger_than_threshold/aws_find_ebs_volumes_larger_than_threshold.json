@@ -1,0 +1,11 @@
+{
+    "action_title": " AWS Find EBS Volumes larger than threshold",
+    "action_description": " AWS Find EBS Volumes larger than threshold",
+    "action_type": "LEGO_TYPE_AWS",
+    "action_entry_function": "aws_find_ebs_volumes_larger_than_threshold",
+    "action_needs_credential": true,
+    "action_supports_poll": true,
+    "action_is_check": true,
+    "action_output_type": "ACTION_OUTPUT_TYPE_LIST",
+    "action_supports_iteration": true
+}
