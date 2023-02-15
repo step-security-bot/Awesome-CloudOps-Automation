@@ -1,12 +1,12 @@
 [<img align="left" src="https://unskript.com/assets/favicon.png" width="100" height="100" style="padding-right: 5px">](https://unskript.com/assets/favicon.png) 
-<h1>Ensure Large Unused Secrets Manager Secret are Deleted</h1>
+<h1>Ensure Buckets Have Lifecycle Policies in AWS</h1>
 
 ## Description
-This Lego deletes unused Secrets Manager Secrets
+This Lego lists buckets that have lifecycle policies 
 
 ## Lego Details
 
-    aws_ensure_secrets_manager_secrets_are_deleted(handle: object, region: str)
+    aws_ensure_buckets_have_lifecycle_policies(handle: object, region: str)
     
         handle: Object of type unSkript AWS Connector.
         region: AWS Region
