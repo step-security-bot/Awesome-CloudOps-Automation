@@ -1,0 +1,11 @@
+{
+    "action_title": " Ensure Large Ec2 Instances are Reviewed in AWS",
+    "action_description": " Ensure Large Ec2 Instances are Reviewed in AWS",
+    "action_type": "LEGO_TYPE_AWS",
+    "action_entry_function": "aws_ensure_large_ec2_instances_are_reviewed",
+    "action_needs_credential": true,
+    "action_supports_poll": true,
+    "action_is_check": true,
+    "action_output_type": "ACTION_OUTPUT_TYPE_LIST",
+    "action_supports_iteration": true
+}
