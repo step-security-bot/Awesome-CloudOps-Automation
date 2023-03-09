@@ -1,0 +1,10 @@
+{
+    "action_title": "Infra: Run a runbook",
+    "action_description": "Infra: use this action to run a runbook as a single atomic step.",
+    "action_type": "LEGO_TYPE_INFRA",
+    "action_entry_function": "workflow_execute_runbook",
+    "action_needs_credential": false,
+    "action_supports_poll": false,
+    "action_output_type": "ACTION_OUTPUT_TYPE_BOOL",
+    "action_supports_iteration": false
+}
